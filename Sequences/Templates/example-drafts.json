@@ -1,0 +1,25 @@
+[
+  {
+    "email": "sarah@example-olivea.com",
+    "first_name": "Sarah",
+    "company": "Olivea",
+    "domain": "example-olivea.com",
+    "title": "Founder",
+    "icp": "ecom",
+    "signal": "Welcome flow opens with the hydroxytyrosol science and pushes the CTA below three paragraphs of body copy.",
+    "variants": [
+      {
+        "subject": "your welcome email",
+        "body": "Sarah — signed up to Olivea's list to see the flow.\n\nThe hydroxytyrosol explainer is genuinely good, but it runs three paragraphs before the buy button shows up. That's usually where first-purchase conversion leaks: people who were already sold have to work to find the CTA.\n\nWe rebuild flows like this for olive-oil and supplement brands — same story, restructured so the CTA sits with the hook.\n\nWorth a quick look at what I'd change?"
+      },
+      {
+        "subject": "the reorder window you're not texting",
+        "body": "Sarah — went through Olivea's signup path and there's no SMS anywhere in it.\n\nFor a consumable like olive oil the reorder window is predictable to within a couple of weeks. That's the highest-margin SMS trigger a brand like yours has, and right now it isn't running at all — the whole repeat-purchase nudge is riding on email.\n\nI'd sketch what that sequence looks like for your reorder cycle. Worth 15 minutes?"
+      },
+      {
+        "subject": "same copy, different order",
+        "body": "Sarah — quick one about Olivea's welcome flow.\n\nWe took a wellness brand with the same setup you have — strong science up front, buy button three paragraphs down — and just restructured it: hook, benefit, CTA, then the deep explainer for people who want it. Same words, different order.\n\nI can show you that before and after next to your current flow if it's useful."
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+.env
+.DS_Store
+__pycache__/
+*.pyc
+
+# Real lead data — personal data under GDPR/CASL, keep it out of version control.
+Leads/Inbox/*.csv
+Leads/Batches/*.csv
+Leads/Rejected/*.csv
+Leads/master-list.csv
+Leads/suppression.csv
+# sourced-ledger holds 70+ real names, emails and companies. It was added after this
+# block was written and was the one lead file not covered — on a public repo that is a
+# GDPR/CASL problem, and git history keeps a blob forever once pushed.
+Leads/sourced-ledger.csv
+Leads/daily.log
+Leads/.last-daily-run
+Leads/.daily.lock/
+
+# Local machine paths and per-machine tool permissions. Nothing secret, nothing useful
+# to anyone else.
+.claude/settings.local.json
+Sequences/Drafts/*
+Sequences/Sent/*
+!**/.gitkeep
+
+# OAuth secrets
+credentials.json
+token.json
+.venv/
+logs/
+
+# Local backstop ledger of delivered messages
+Leads/.sent-row-keys

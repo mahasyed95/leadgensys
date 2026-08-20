@@ -1,0 +1,8 @@
+# Google Sheets (CRM) + Gmail (sending)
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth>=2.23.0
+
+# Apollo API
+requests>=2.31.0
+firecrawl-py>=4.0.0
